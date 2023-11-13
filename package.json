@@ -1,0 +1,16 @@
+{
+  "name": "codember",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx watch --tsconfig ./tsconfig.json ./src/index.ts",
+    "format": "prettier --cache --check --write ./src"
+  },
+  "author": "AbrahamX3",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^20.8.10",
+    "prettier": "^3.0.3",
+    "tsx": "^3.14.0"
+  }
+}
