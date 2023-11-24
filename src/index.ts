@@ -1,6 +1,6 @@
 import { readFileContent } from "./lib/utils";
 
-const fileContent = await readFileContent("./src/challenges/2/data.txt");
+const fileContent = await readFileContent("./src/challenges/3/data.txt");
 
 async function solution(data: string) {}
 
